@@ -3,7 +3,7 @@ import {t} from "../i18n/translater.js";
 
 export const statutes = {
     name: 'persons_statutes',
-    label: t.lawyerify.fields.persons_statutes,
+    label: t.fields.persons_statutes,
     widget: 'select',
     options: availablePersonsStatutes,
     multiple: false,

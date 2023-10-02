@@ -2,7 +2,7 @@ import {t} from "../i18n/translater.js";
 
 export const expertises = {
     name: 'persons_expertises',
-    label: t.lawyerify.fields.persons_expertises,
+    label: t.fields.persons_expertises,
     widget: 'relation',
     collection: 'expertises',
     search_fields: ['title'],

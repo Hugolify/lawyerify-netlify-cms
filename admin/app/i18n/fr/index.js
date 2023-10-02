@@ -1,6 +1,7 @@
-export * from './blocks.js';
-export * from './config.js';
-export * from './content.js';
-export * from './fields.js';
-export * from './shortcodes.js';
-export * from './lawyerify.js';
+import { lawyerify } from "./lawyerify.js";
+
+export const blocks = lawyerify.blocks;
+export const config = lawyerify.config;
+export const content = lawyerify.content;
+export const fields = lawyerify.fields;
+export const shortcodes = lawyerify.shortcodes;
