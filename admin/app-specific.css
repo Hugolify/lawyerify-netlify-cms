@@ -12,3 +12,6 @@
 aside [href="#/collections/persons_statutes"] span::before {
     content: '\F8A7';
 }
+aside [href="#/collections/places"] span::before {
+    content: '\F1DD';
+}
