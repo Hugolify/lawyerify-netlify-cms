@@ -40,6 +40,7 @@ export const lawyerify = overrideTranslations(
                 label: "Pricing",
                 sold: "Adjudged price"
             },
+            realestates_sellers: "Type of sale",
             visits: "Visits"
         }
     }
