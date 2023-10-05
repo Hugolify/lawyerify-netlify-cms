@@ -30,11 +30,17 @@ export const lawyerify = overrideTranslations(
             }
         },
         fields: {
+            date_sale: "Sale date",
             places_items: "Cabinets",
             place: "Office",
             persons_expertises: "Expert in?",
             persons_places: "Attached to one or more offices?",
-            persons_statutes: "Status"
+            persons_statutes: "Status",
+            price: {
+                label: "Pricing",
+                sold: "Adjudged price"
+            },
+            visits: "Visits"
         }
     }
 );

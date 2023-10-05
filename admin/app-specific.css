@@ -18,3 +18,41 @@ aside [href="#/collections/places"] span::before {
 aside [href="#/collections/realestates_sellers"] span::before {
     content: '\F3D8';
 }
+
+
+[class*=-ControlContainer]:has([id^=realestates_sellers]) {
+    float: left;
+    width: 49%;
+}
+[class*=-ControlContainer]:has([id^=realestates_types]) {
+    clear: none;
+    float: right;
+    width: 49%;
+}
+
+
+/* PRICES */ 
+[id^=offer-field] :has(> [id^=price-field]),
+[id^=offer-field] :has(> [id^=price_sold-field]) {
+    float: left;
+    width: 49%;
+}
+[id^=offer-field] :has(> [id^=price_sold-field]) {
+    clear: none;
+    float: right;
+}
+
+
+/* VISITS */ 
+[id^=visits-field] :has(> [class*=ControlContainer]) {
+    display: flex;
+    justify-content: space-between;
+}
+[id^=visits-field] [class*=ControlContainer] {
+    align-items: baseline;
+    display: flex;
+    flex-basis: 49%;
+}
+[id^=visits-field] [class*=ControlContainer] > div {
+    flex: 2;
+}

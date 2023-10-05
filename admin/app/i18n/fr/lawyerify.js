@@ -30,11 +30,17 @@ export const lawyerify = overrideTranslations(
             }
         },
         fields: {
+            date_sale: "Date de vente",
             places_items: "Cabinets",
             place: "Cabinet",
             persons_expertises: "Expert en ?",
             persons_places: "Rattaché à un ou plusieurs cabinets ?",
-            persons_statutes: "Satuts"
+            persons_statutes: "Satuts",
+            price: {
+                label: "Prix de mise en vente",
+                sold: "Prix adjugé"
+            },
+            visits: "Visites"
         }
     }
 );
