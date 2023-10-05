@@ -22,6 +22,11 @@ export const lawyerify = overrideTranslations(
                 label: "Offices",
                 label_singular: "Office",
                 description: "All offices"
+            },
+            realestates_sellers: {
+                label: "Types of sales",
+                label_singular: "Type of sale",
+                description: "all types of sales"
             }
         },
         fields: {
