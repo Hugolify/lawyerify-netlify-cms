@@ -15,13 +15,12 @@
 - rubrics `create false`
 - pages
 - persons
-- offices
+- places
 - expertises
 - posts
   - categories (posts taxonomy)
   - tags (posts taxonomy)
 - publications
-  - concerned (publications taxonomy)
 - config
   - menu `create false`
     - primary
