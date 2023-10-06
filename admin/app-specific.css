@@ -20,6 +20,11 @@ aside [href="#/collections/realestates_sellers"] span::before {
 }
 
 
+/* TAXONOMIES */ 
+[class*=-ControlContainer]:has([id^=realestates_persons]) {
+    float: none;
+    width: 100%;
+}
 [class*=-ControlContainer]:has([id^=realestates_sellers]) {
     float: left;
     width: 49%;
