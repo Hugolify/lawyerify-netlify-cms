@@ -29,7 +29,7 @@ aside [href="#/collections/realestates_sellers"] span::before {
     float: left;
     width: 49%;
 }
-[class*=-ControlContainer]:has([id^=realestates_types]) {
+[class*=-ControlContainer]:has([id^=realestates_categories]) {
     clear: none;
     float: right;
     width: 49%;
