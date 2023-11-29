@@ -1,3 +1,7 @@
+**This is a old module, now get https://github.com/Hugolify/lawyerify-decap-cms**
+
+---
+
 # Lawyerify Netlify CMS
 
 ## Table of contents
